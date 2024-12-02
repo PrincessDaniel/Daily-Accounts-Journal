@@ -1,0 +1,65 @@
+#main {
+    max-width: 1000px;
+    height: 100vh;
+}
+
+body {
+    background-image: url("financial-journal-image.jpg");
+    background-size: cover;
+    font-family: Cantarell, Ubuntu, Oxygen, 'Segoe UI', BlinkMacSystemFont, 'Helvetica Neue', Roboto, -apple-system, Cantarell, 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#container {
+    max-width: 1000px;
+    margin: auto
+}
+
+h1, h2, p {
+    color: black;
+    text-shadow: 2px 2px 5px paleturquoise;
+}
+
+h1 {
+    margin: 20px 12px 30p;
+    font-size: 20px;
+    }
+
+p {
+font-size: 27px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+button {
+    border-bottom: 5px solid aqua;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    width: 250px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+#increment-btn {
+    background: white;
+}
+
+#increment-btn:hover {
+    background: aqua;
+}
+
+#save-btn {
+    background: pink;
+}
+
+#save-btn:hover {
+    background: aqua;
+}
+
